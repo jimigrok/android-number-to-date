@@ -28,22 +28,13 @@ Sets this Timestamp object to represent a point in time that is time millisecond
 
    
 Parameters
-
 year 	  int: the year minus 1900
-   
 month 	int: 0 to 11
-   
 date 	  int: 1 to 31
-   
 hour 	  int: 0 to 23
-   
 minute 	int: 0 to 59
-   
 second 	int: 0 to 59
-   
 nano 	  int: 0 to 999,999,999
-   
-
 
 toString
 public String toString ()
