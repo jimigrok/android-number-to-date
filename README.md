@@ -1,2 +1,2 @@
 # android-number-to-date
-transform android numbers in a date format
+python script to transform android numbers in a human readable date format
