@@ -1,7 +1,6 @@
 # android-number-to-date
 python script to transform saved timestamps in android to a human readable date format
 
-<p>
 example android time
 from Android Developers Docs Reference
 
@@ -24,16 +23,26 @@ long 	getTime()
 Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Timestamp object
 
 void 	setTime(long time)
+   
 Sets this Timestamp object to represent a point in time that is time milliseconds after January 1, 1970 00:00:00 GMT
 
+   
 Parameters
+
 year 	  int: the year minus 1900
+   
 month 	int: 0 to 11
+   
 date 	  int: 1 to 31
+   
 hour 	  int: 0 to 23
+   
 minute 	int: 0 to 59
+   
 second 	int: 0 to 59
+   
 nano 	  int: 0 to 999,999,999
+   
 
 
 toString
@@ -56,4 +65,3 @@ Android forensics: Interpretation of timestamps
 https://www.sciencedirect.com/science/article/abs/pii/S1742287614000449
 
    
-   </p>
