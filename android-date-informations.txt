@@ -1,8 +1,7 @@
 example android time
 from Android Developers Docs Reference
 
-
-https://developer.android.com/reference/java/sql/Time#toString()
+LINK : https://developer.android.com/reference/java/sql/Time#toString()
 
 Time
 public class Time
@@ -50,4 +49,4 @@ Time 	a corresponding Time object
 
 
 Android forensics: Interpretation of timestamps
-https://www.sciencedirect.com/science/article/abs/pii/S1742287614000449
+LINK : https://www.sciencedirect.com/science/article/abs/pii/S1742287614000449
