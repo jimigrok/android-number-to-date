@@ -11,3 +11,4 @@ __license__ = "GPLv3"
 # 
 # 2021-06-06 home
 
+# text from jimigrok 20210606_1330
