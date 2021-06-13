@@ -1,6 +1,32 @@
 example android time
-from Android Developers Docs Reference
 
+https://www.sciencedirect.com/science/article/abs/pii/S1742287614000449
+
+
+possible timestamps
+- Normalisation of timestamps
+- Time and date related settings
+    persist.sys.timezone
+    com.android.settings_preferences.xml
+    settings.db
+- native
+- UTC timestamps
+- potential clock skew (sometimes known)
+    - these results demonstrate a method to detect clock skew based on the mmssms.db database
+    - However, it was also found that the applicability of this method is highly dependent on specific implementation choices made by different vendors.
+- android time zone setting (configuration)
+- "the fact that both time zones enforced daylight saving time (DST) at different periods was expected to complicate the timestamps normalisation"
+    - "die Tatsache, dass in beiden Zeitzonen die Sommerzeit (DST) zu unterschiedlichen Zeiträumen erzwungen wurde, sollte die Normalisierung der Zeitstempel erschweren"
+
+- Time and date issues
+    Detection of clock skew
+        Automatic time synchronisation
+        External timestamps
+    Normalisation of timestamps
+
+
+
+from Android Developers Docs Reference
 LINK : https://developer.android.com/reference/java/sql/Time#toString()
 
 Time
